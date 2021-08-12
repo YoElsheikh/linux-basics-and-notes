@@ -1,0 +1,38 @@
+finroc related stuff
+
+
+yousif@cordelia:~/sources/cpp/projects$ ls
+crash_course
+yousif@cordelia:~/sources/cpp/projects$ cd
+yousif@cordelia:~$ cd finroc/sources/cpp/projects/
+yousif@cordelia:~/finroc/sources/cpp/projects$ ls
+rc_unimog
+yousif@cordelia:~/finroc/sources/cpp/projects$ cp /
+bin/            home/           lib64/          root/           tmp/            
+boot/           initrd.img      media/          run/            usr/            
+dev/            initrd.img.old  mnt/            sbin/           var/            
+etc/            lib/            opt/            srv/            vmlinuz         
+fsprotect/      lib32/          proc/           sys/            vmlinuz.old     
+yousif@cordelia:~/finroc/sources/cpp/projects$ mv /home/yousif/sources/cpp/projects/crash_course .
+yousif@cordelia:~/finroc/sources/cpp/projects$ ls
+crash_course  rc_unimog
+yousif@cordelia:~/finroc/sources/cpp/projects$ cd
+yousif@cordelia:~$ cd sources/cpp/projects/
+yousif@cordelia:~/sources/cpp/projects$ ls
+yousif@cordelia:~/sources/cpp/projects$ cd ..
+yousif@cordelia:~/sources/cpp$ cd
+yousif@cordelia:~$ rm -rfv sources
+removed directory 'sources/cpp/projects'
+removed directory 'sources/cpp'
+removed directory 'sources'
+yousif@cordelia:~$ ls
+compare.sh  Downloads          finroc             hello-world.sh  Pictures  Templates
+Desktop     eclipse            finroc_execute.sh  if_else.sh      Public    Videos
+Documents   eclipse-workspace  function           Music           task.sh   welcome.sh
+yousif@cordelia:~$ finroc_create 
+/home/yousif/finroc/sources/cpp/plugins/ib2c/etc/content_templates.xml
+/home/yousif/finroc/sources/cpp/plugins/structure/etc/content_templates.xml
+Use of uninitialized value in multiplication (*) at /home/yousif/finroc/scripts/perl/FINROC/UI.pm line 51.
+
+
+NOTE: for the above terminal commands do not use the command rm -rfv or rm (remove) in general as it will remove many things 
